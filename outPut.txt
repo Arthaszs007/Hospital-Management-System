@@ -1,0 +1,231 @@
+PS C:\Users\synap\OneDrive - Southern Alberta Institute of Technology\oop\Project Classes submission\Project Data> & C:/Users/synap/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/synap/OneDrive - Southern Alberta Institute of Technology/oop/Project Classes submission/Project Data/ProjectClasses.py"
+Welcome to Alberta Hospital(AH) Managment system
+Select from the following option, or select 3 to stop:
+1-       Doctors
+2-       Patients
+3-       Exit Program
+1
+Doctors Menu
+1 - Display Doctors List 
+2 - Search Doctor by ID  
+3 - Search Doctor by name
+4 - Add Doctor
+5 - Edit Doctor Info     
+6 - Back to Main Menu    
+1
+id      name    specilist       timing  qualification   roomNb
+
+21      Dr.Gody ENT     5-11AM  MBBS,MD 17
+
+32      Dr.Vikram       Physician       10-3AM  MBBS,MD 45    
+
+17      Dr.Amy  Surgeon 8-2AM   BDM     8
+
+33      Dr.David        Artho   10-4PM  MBBS,MS 40
+
+123     Dr. Ross        Headackes       8-10am  Mst     102   
+
+66      Dr. Mike        Heart   9am-5pm MS      2 
+
+Doctors Menu
+1 - Display Doctors List
+2 - Search Doctor by ID
+3 - Search Doctor by name
+4 - Add Doctor
+5 - Edit Doctor Info
+6 - Back to Main Menu
+2
+Enter the doctor Id:
+66
+id      name    specilist       timing  qualification   roomNb
+
+66      Dr. Mike        Heart   9am-5pm MS      2
+
+Doctors Menu
+1 - Display Doctors List
+2 - Search Doctor by ID
+3 - Search Doctor by name
+4 - Add Doctor
+5 - Edit Doctor Info
+6 - Back to Main Menu
+3
+Enter the doctor name: Dr.David
+33      Dr.David        Artho   10-4PM  MBBS,MS 40
+
+Doctors Menu
+1 - Display Doctors List
+2 - Search Doctor by ID
+3 - Search Doctor by name
+4 - Add Doctor
+5 - Edit Doctor Info
+6 - Back to Main Menu
+2
+Enter the doctor Id:
+20
+Can't find the doctor with the same ID on the system
+
+Doctors Menu
+1 - Display Doctors List
+2 - Search Doctor by ID
+3 - Search Doctor by name
+4 - Add Doctor
+5 - Edit Doctor Info
+6 - Back to Main Menu
+3
+Enter the doctor name: Dr.Tom
+
+Can't find the doctor with the same name on the syestem
+Doctors Menu
+1 - Display Doctors List
+2 - Search Doctor by ID
+3 - Search Doctor by name
+4 - Add Doctor
+5 - Edit Doctor Info
+6 - Back to Main Menu
+4
+enter the doctor's ID: 62
+Enter the doctor's name: Dr.Smith
+Enter the doctor's specility: Heart
+Enter the doctor's timing (e.g., 7am-10pm): 6am-11am
+Enter the doctor's qualification: PHD
+Enter the doctor's room number: 12
+
+Doctor whose ID is 62 has been added.
+
+Doctors Menu
+1 - Display Doctors List
+2 - Search Doctor by ID
+3 - Search Doctor by name
+4 - Add Doctor
+5 - Edit Doctor Info
+6 - Back to Main Menu
+5
+Please enter the id of he doctor that you want to edit their information:
+66
+Enter the new name: Dr. Mike kale 
+Enter the new specialization: Heart
+Enter the new timing: 9am-3pm
+Enter the new qualification: MS
+Enter the new room number: 2
+
+Doctor whose ID is 66 has been edited.
+Doctors Menu
+1 - Display Doctors List
+2 - Search Doctor by ID
+3 - Search Doctor by name
+4 - Add Doctor
+5 - Edit Doctor Info
+6 - Back to Main Menu
+6
+Welcome to Alberta Hospital(AH) Managment system
+Select from the following option, or select 3 to stop:
+1-       Doctors
+2-       Patients
+3-       Exit Program
+2
+Patients Menu
+1- Display Patients List
+2- Search Patient by ID 
+3- Add Patient
+4- Edit Patient Info    
+5- Back to the Main Menu
+1
+id      Name    Disease Gender  Age
+
+12      Pankaj  Cancer  Male    30 
+
+13      Sumit   Cold    Male    23 
+
+14      Alok    Maleriya        Male    45
+
+15      Ravi    Diabetes        Male    25
+
+Patients Menu
+1- Display Patients List
+2- Search Patient by ID
+3- Add Patient
+4- Edit Patient Info
+5- Back to the Main Menu
+2
+Enter the Patient Id: 
+16
+Can't find the Patient with the same id on the system
+
+Patients Menu
+1- Display Patients List
+2- Search Patient by ID
+3- Add Patient
+4- Edit Patient Info
+5- Back to the Main Menu
+2
+Enter the Patient Id: 
+15
+id      Name    Disease Gender  Age
+
+15      Ravi    Diabetes        Male    25
+
+Patients Menu
+1- Display Patients List
+2- Search Patient by ID
+3- Add Patient
+4- Edit Patient Info
+5- Back to the Main Menu
+3
+Enter Patient id:16
+Enter Patient name:Mary
+Enter Patient disease:Cancer
+Enter Patient gender:Female
+Enter Patient age: 55
+
+Patient whose ID is 16 has been added.
+
+Patients Menu
+1- Display Patients List
+2- Search Patient by ID
+3- Add Patient
+4- Edit Patient Info
+5- Back to the Main Menu
+4
+Enter the Patient Id: 
+13
+Enter new Patient name:Janina
+Enter new Patient disease:Cold&Flu
+Enter new Patient gender:Female
+Enter new Patient age: 23
+
+Patient whose ID is 13 has been edited.
+
+Patients Menu
+1- Display Patients List
+2- Search Patient by ID
+3- Add Patient
+4- Edit Patient Info
+5- Back to the Main Menu
+1
+id      Name    Disease Gender  Age
+
+12      Pankaj  Cancer  Male    30
+
+13      Janina  Cold&Flu        Female  23
+
+14      Alok    Maleriya        Male    45
+
+15      Ravi    Diabetes        Male    25
+
+16      Mary    Cancer  Female  55
+
+Patients Menu
+1- Display Patients List
+2- Search Patient by ID
+3- Add Patient
+4- Edit Patient Info
+5- Back to the Main Menu
+5
+Welcome to Alberta Hospital(AH) Managment system
+Select from the following option, or select 3 to stop:
+1-       Doctors
+2-       Patients
+3-       Exit Program
+3
+Thanks for using the program,Bye!
+PS C:\Users\synap\OneDrive - Southern Alberta Institute of Technology\oop\Project Classes submission\Project Data>
